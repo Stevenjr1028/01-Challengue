@@ -4,12 +4,13 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 //import FirstApp from './FirstApp'
 //import { GifExpertApp } from './ComponentApp'
-import { GifGrid } from './components/GifGrid'
+//import { GifGrid } from './components/GifGrid'
+import { Counter } from './components/Counter'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     
-    <GifGrid/>
+    <Counter/>
 
   </React.StrictMode>,
 )
