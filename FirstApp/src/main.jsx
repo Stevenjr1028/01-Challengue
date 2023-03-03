@@ -5,12 +5,13 @@ import './index.css'
 //import FirstApp from './FirstApp'
 //import { GifExpertApp } from './ComponentApp'
 //import { GifGrid } from './components/GifGrid'
-import { Counter } from './components/Counter'
+//import { Counter } from './components/Counter'
+import { useFetch } from './Hooks/useFetch'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     
-    <Counter/>
+    <useFetch/>
 
   </React.StrictMode>,
 )
