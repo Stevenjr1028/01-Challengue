@@ -6,12 +6,12 @@ import './index.css'
 //import { GifExpertApp } from './ComponentApp'
 //import { GifGrid } from './components/GifGrid'
 //import { Counter } from './components/Counter'
-import { useFetch } from './Hooks/useFetch'
+import { MultipleCustomHooks } from './components/MultiplecustomHook'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     
-    <useFetch/>
+    <MultipleCustomHooks/>
 
   </React.StrictMode>,
 )
